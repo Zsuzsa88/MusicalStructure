@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_artists"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37474F"
+    tools:context="com.example.zsuzsi.musicalstructure.Artists">
+
+    <SearchView
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#CFD8DC"
+        android:iconifiedByDefault="false"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        android:text="Az oldal tetején lévő kereső funkicó segítségével a felhasználó könnyen és célirányosan megtalálja az általa közkedvelt előadót. Alatta található egy rövid leírás a művész életéről és pályafutásáról. Figyelembe véve a zenei érdeklődését a felhasználónak az app közepén található előadói ajánlások közül bármelyikre rákattinthat és bele hallgathat. Legalul pedig az éppen hallgatott számot látjuk. "
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="190dp"
+        android:text="Recommended"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:popupTheme="@style/Base.TextAppearance.AppCompat.Widget.Button">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/previous" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/backward" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/forward" />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/next" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:text="Add to Playlist"
+        android:textColor="#000000" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:id="@+id/android_tomi"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="210dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pocc" />
+
+
+            <ImageButton
+                android:id="@+id/android_fred"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="210dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hersch" />
+
+
+            <ImageButton
+                android:id="@+id/android_coltrane"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="210dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/coltrane" />
+
+            <ImageButton
+                android:id="@+id/android_rayc"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="210dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rayc" />
+
+
+            <ImageButton
+                android:id="@+id/android_monk"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="210dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/monk" />
+
+            <ImageButton
+                android:id="@+id/android_miles"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="210dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/miles" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
