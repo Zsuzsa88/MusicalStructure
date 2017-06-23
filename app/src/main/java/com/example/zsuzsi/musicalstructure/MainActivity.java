@@ -45,19 +45,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        TextView nowPlaying = (TextView) findViewById(R.id.now_playing);
-
-        nowPlaying.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers View is clicked on.
-            @Override
-            public void onClick(View view) {
-            // The code in this method will be executed when the numbers View is clicked on.
-                Intent nowPlayingIntent = new Intent(MainActivity.this, NowPlaying.class);
-                startActivity(nowPlayingIntent);
-            }
-        });
-
-
         TextView playlist = (TextView) findViewById(R.id.playlist);
 
         playlist.setOnClickListener(new View.OnClickListener() {
