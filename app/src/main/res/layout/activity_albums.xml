@@ -25,7 +25,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="60dp"
-        android:text="On this page, you can browse or search by albums. Below can be found a brief description of the album. You can also listen to the albums by clicking the images, thumbnails in the scrollbar, at that the bottom the currently playing album, track shows."
+        android:text="On this page, you can browse or search by albums. Below can be found a brief description of the album.You can also listen to the albums by clicking the images/thumbnails in the scrollbar, at that the bottom the currently playing album/track shows."
         android:textColor="#FFFFFF"/>
 
     <TextView
