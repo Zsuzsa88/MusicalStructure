@@ -27,8 +27,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:textColor="#FFFFFF"
-        android:text="Ezen a felületen a user a saját playlistjét találja meg amit a saját ízlése alapján állított össze. Ezt megteheti albummok, zenék, artistok vagy zenei stílusok alapján. Ezeket bármikor kiegészítheti vagy kreálhat újat." />
-
+        android:text="On this surface can be found the user's own playlist. You can create a playlist by using the ADD PLAYLIST. You can add songs to your playlists from everywhere in the app using the add to playlist button. Also, more than one playlist can be created with the new playlist button."/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
