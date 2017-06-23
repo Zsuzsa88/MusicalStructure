@@ -25,7 +25,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="60dp"
-        android:text="Az oldal tetején lévő kereső funkicó segítségével a felhasználó könnyen és célirányosan megtalálja az általa közkedvelt előadót. Alatta található egy rövid leírás a művész életéről és pályafutásáról. Figyelembe véve a zenei érdeklődését a felhasználónak az app közepén található előadói ajánlások közül bármelyikre rákattinthat és bele hallgathat. Legalul pedig az éppen hallgatott számot látjuk. "
+        android:text="On this page, you can browse or search by artist. The exact same thing as the artist page but the search by artist."
         android:textColor="#FFFFFF" />
 
     <TextView
@@ -34,7 +34,7 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="150dp"
         android:text="Recommended"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
